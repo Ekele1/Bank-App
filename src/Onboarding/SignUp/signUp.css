@@ -1,0 +1,138 @@
+.signUpwrapper1{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1462206092226-f46025ffe607?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJhbmt8ZW58MHx8MHx8fDA%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signUpwrapper{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signUpbody{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(166, 248, 166); */
+    /* border: 1px solid black; */
+    position: relative;
+}
+.signupbottom{
+    width: 100%;
+    height: 100%;
+}
+.signupbottom img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.change{
+    width: 60%;
+    height: 10%;
+    color: black;
+    position: absolute;
+    top: 85%;
+    right: 20%;
+}
+.formwrapper{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.signup{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cred{
+    width: 90%;
+    height: 90%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    border: 1px solid rgb(116, 231, 116);
+    background-color: white;
+}
+.inputinfo{
+    width: 80%;
+    height: 10%;
+    /* background-color: brown; */
+}
+.inputinfo input{
+    width: 90%;
+    height: 70%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+.errortype span{
+    color: red;
+}
+.errortype{
+    width: 100%;
+    display: flex;
+    gap: 10%;
+}
+.infoo{
+    width: 80%;
+    height: 12%;
+}
+.infop{
+    width: 90%;
+    height: 90%;
+    /* margin-right: 5%; */
+    border-bottom: 1px solid black;
+    /* background-color: yellow; */
+}
+.infop input{
+    width: 92%;
+    height: 60%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    /* border-bottom: 1px solid black; */
+}
+.signbutt{
+    width: 90%;
+    height: 80%;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(19, 201, 19);
+}
+.signbutt:hover{
+    background-color: rgb(66, 226, 66);
+}
+.signbutt:active{
+    background-color: rgb(19, 201, 19);
+}
+.eye{
+    font-size: 30px;
+}
+#log{
+    color: blue;
+    cursor: pointer;
+}

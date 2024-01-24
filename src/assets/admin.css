@@ -1,0 +1,109 @@
+.adminwrap{
+    width: 100%;
+    height: max-content;
+    position: relative;
+    background-color: #285656;
+}
+.nav{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.adminpage{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adminbody{
+    width: 70%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #dce5fd;
+}
+.adminbodytop{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+.adminfunction{
+    width: 18%;
+    height: 60%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(65, 65, 153) 0%, rgb(18, 139, 163) 0%, rgb(75, 192, 216) 40%);
+}
+.adminbodybottom{
+    width: 100%;
+    height: 80%;display: flex;
+    flex-direction: column;
+    gap: 3%;
+    /* background-color: yellow; */
+}
+.headers{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 10px;
+    color: #285656;
+    /* padding-top: 25px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid #285656;
+    /* background-color: blue; */
+}
+.headers h1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+}
+.details{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* align-items: center;
+    justify-content: space-around; */
+    background-color: aliceblue;
+}
+/* .details p{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.ekele{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: palegoldenrod; */
+    /* padding-left: 20px; */
+}

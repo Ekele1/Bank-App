@@ -1,0 +1,343 @@
+.homePageWrapper{
+    width: 100%;
+    height: max-content;
+    background-color: #285656;
+    position: relative;
+}
+.homePage{
+    width: 100%;
+    height: 860px;
+    display: flex;
+    
+}
+.left{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    padding-left: 1%;
+    background-color: #285656;
+}
+.right{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 30px;
+    background-color: #f0f4f5;
+    
+}
+.transferpop{
+    width: 100%;
+    height: 850px;
+    background-color: white;
+    position: absolute;
+    left: 0%;
+    backdrop-filter: blur(50px);
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cancel{
+    width: 100px;
+    height: 100px;
+    /* background-color: #ef7a1f; */
+    border-radius: 50px;
+    margin-bottom: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: red;
+    cursor: pointer;
+}
+.createh1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: red; */
+}
+.receiver{
+    width: 100%;
+    height: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 25px;
+    color: white;
+    /* background-color: red; */
+}
+.xrp{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+}
+.xrp input{
+    width: 70%;
+    height: 40%;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    outline: none;
+}
+.sendmoneybutton{
+    width: 70%;
+    height: 30%;
+    border-radius: 20px;
+    border: none;
+    background-color: #ef7a1f;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.sendmoneybutton:hover{
+    background-color: #eb9451;
+}
+.sendmoneybutton:active{
+    background-color: #ef7a1f;
+}
+
+.transfermoney{
+    width: 30%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: #285656;
+}
+.logo{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    color: #ef7a1f;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: white; */
+}
+.bankLogo{
+    font-size: 50px;
+
+}
+.featureWrap{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: blue; */
+}
+.mycard{
+    width: 80%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 10%;
+    cursor: pointer;
+    background-color: white;
+}
+.mycardtrue{
+    color: #ef7a1f;
+}
+.cardWrapper{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+}
+.cardHolder{
+    width: 90%;
+    height: 80%;
+    /* background-color: gray; */
+}
+.card{
+    width: 100%;
+    height: 40%;
+    background: rgb(2,0,36);
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(65, 65, 153) 0%, rgb(18, 139, 163) 0%, rgb(75, 192, 216) 40%);
+}
+.balance{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    /* background-color: white; */
+}
+.mastercard{
+    font-size: 50px;
+    color: #ef7a1f;
+}
+.current{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.amount{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* background-color: white; */
+}
+.cardnumber{
+    width: 100%;
+    height: 20%;
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: white; */
+}
+.cardAction{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    margin-top: 20px;
+
+    /* background-color: green; */
+}
+.action{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border-radius: 50%; */
+    /* background-color: #ef7a1f; */
+}
+.actualpic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    border: 1px solid #285656;
+    background-color: white;
+}
+.actualpic:active{
+    color: #ef7a1f;
+    background-color: #e2b38f;
+}
+.cardinfo{
+    width: 100%;
+    height: 50%;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* background-color: green; */
+}
+.information{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    /* background-color: white; */
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.transactionInfo{
+    width: 60%;
+    height: 100%;
+    /* padding-left: 30px; */
+    /* background-color: white; */
+}
+.notification{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+    padding-right: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: red; */
+}
+.icons{
+    font-size: 30px;
+}
+.notificationDetails{
+    width: 100%;
+    height: 90%;
+    padding: 30px;
+    border-top-left-radius: 20px;
+    background-color: white;
+}
+.activity{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+.activityIcon{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color: blue; */
+}
+.activityIcon div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-between; */
+    font-size: 25px;
+    /* background-color: indianred; */
+}
+#real{
+    justify-content: flex-end;
+    gap: 30px;
+}
+.alertcred{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: yellow; */
+}
