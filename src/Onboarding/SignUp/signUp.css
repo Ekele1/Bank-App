@@ -154,7 +154,7 @@
         justify-content: center;
     }
     .formwrapper{
-        width: 100%;
+        width: 90%;
         /* background-color: yellow; */
     }
     .cred{
@@ -162,10 +162,11 @@
     }
     .inputinfo{
         width: 95%;
-        font-size: 25px;
+        font-size: 15px;
+        height: 7%;
     }
     .inputinfo input{
-        font-size: 25px;
+        font-size: 15px;
     }
     .infoo{
         width: 95%;
