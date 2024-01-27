@@ -333,6 +333,9 @@
     justify-content: flex-end;
     gap: 30px;
 }
+.lee{
+    display: none;
+}
 .alertcred{
     width: 100%;
     height: 10%;
@@ -340,4 +343,98 @@
     justify-content: space-between;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* background-color: yellow; */
+}
+@media screen and (max-width: 1400px) {
+    .homePageWrapper{
+        width: 100%;
+        min-height: 100vh;
+    }
+    .notificationDetails{
+        display: none;
+    }
+    .notification{
+        /* background-color: blue; */
+        position: absolute;
+        width: 50%;
+        left: 50%;
+    }
+    .transactionInfo{
+        width: 0%;
+    }
+    .cardWrapper{
+        position: relative;
+        /* background-color: blue; */
+        width: 100%;
+    }
+    .goo{
+        display: none;
+    }
+    .lee{
+        display: flex;
+    }
+    .logo{
+        position: absolute;
+        left: 0%;
+        gap: 5%;
+        font-size: 10px;
+        width: 50%;
+        /* background-color: blue; */
+    }
+    .homePageWrapper{
+        position: relative;
+    }
+    .featureWrap{
+        display: none;
+    }
+    .right{
+        width: 100%;
+        border-radius: 0px;
+        min-height: 100vh;
+        /* background-color: green; */
+    }
+    .left{
+        width: 0%;
+    }
+    .transferpop{
+        z-index: 1;
+        height: 100%;
+        
+    }
+    .transfermoney{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px;
+        position: relative;
+    }
+    .cancel{
+        position: absolute;
+        top: 1%;
+        right: 1%;
+    }
+    .xrp{
+        /* background-color: green; */
+        height: 20%;
+    }
+    .xrp input{
+        width: 90%;
+        height: 60%;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+    /* .createh1{
+        margin-top: 20%; 
+        background-color: green; 
+    } */
+    .receiver{
+        height: 70%;
+        /* background-color: yellow; */
+    }
+    .sendmoneybutton{
+        width: 90%;
+        height: 15%;
+    }
 }

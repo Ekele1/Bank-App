@@ -136,3 +136,42 @@
     color: blue;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1400px) {
+    .signupbottom{
+        display: none;
+    }
+    .change{
+        display: none;
+    }
+    .signUpbody{
+        display: none;
+    }
+    .signUpwrapper{
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+    .formwrapper{
+        width: 100%;
+        /* background-color: yellow; */
+    }
+    .cred{
+        width: 95%;
+    }
+    .inputinfo{
+        width: 95%;
+        font-size: 25px;
+    }
+    .inputinfo input{
+        font-size: 25px;
+    }
+    .infoo{
+        width: 95%;
+    }
+    .infop input{
+        width: 85%;
+        font-size: 30px;
+    }
+}

@@ -108,7 +108,7 @@ const SignUp =()=>{
         <div className="signUpwrapper1">
             <div className="signUpwrapper">
                 <div className="signUpbody">
-                <div className="signupbottom">
+                    <div className="signupbottom">
                         <img src="https://images.unsplash.com/photo-1541354329998-f4d9a9f9297f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFua3xlbnwwfHwwfHx8MA%3D%3D=" alt="" />
                     </div>
                     
@@ -124,8 +124,8 @@ const SignUp =()=>{
                     </div>
                     <div className="cred">
                         <div className="inputinfo">
-                        <div className="errortype"><p>First name</p>{error.isError && error.type ==="firstname" || error.isError && error.type === "empty" ||
-                         error.isError && error.type === "lenght"? <span>{error.mssg}</span>: null}</div>
+                            <div className="errortype"><p>First name</p>{error.isError && error.type ==="firstname" || error.isError && error.type === "empty" ||
+                            error.isError && error.type === "lenght"? <span>{error.mssg}</span>: null}</div>
                             <input type="text" value={firstName} onChange={(e)=>setFirstName(e.target.value)}/>
                         </div>
                         <div className="inputinfo">
@@ -135,7 +135,7 @@ const SignUp =()=>{
                         </div>
                         <div className="inputinfo">
                         <div className="errortype"><p>Email</p>{error.isError && error.type ==="email" || error.isError && error.type == "empty2" ||
-                         error.isError && error.type === "letter"? <span>{error.mssg}</span>: null}</div>
+                            error.isError && error.type === "letter"? <span>{error.mssg}</span>: null}</div>
                             <input type="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
                         </div>
                         <div className="inputinfo">

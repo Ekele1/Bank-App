@@ -3,6 +3,7 @@ import { BsBank } from "react-icons/bs";
 import { RiBankCardFill } from "react-icons/ri";
 import { MdOutlinePayments, MdOutlineSettings } from "react-icons/md";
 import { TbCurrencyNaira } from "react-icons/tb";
+import { MdOutlineOtherHouses } from "react-icons/md";
 
 
 import { useState } from "react";
@@ -188,7 +189,7 @@ const HomePage = () => {
                                     </div>
                                     <h3>Fund Card</h3>
                                 </div>
-                                <div className="action">
+                                <div className="action goo">
                                     <div className="actualpic"></div>
                                     <h3>Limit</h3>
                                 </div>
@@ -197,6 +198,12 @@ const HomePage = () => {
                                         <RiFolderTransferLine />
                                     </div>
                                     <h3>Transfer</h3>
+                                </div>
+                                <div className="action lee">
+                                    <div className="actualpic">
+                                        <MdOutlineOtherHouses />
+                                    </div>
+                                    <h3>Others</h3>
                                 </div>
                             </div>
                             <div className="cardinfo">

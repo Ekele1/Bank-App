@@ -109,3 +109,23 @@
 .pass:active{
     color: blue;
 }
+
+@media screen and (max-width: 1400px) {
+    .bck-img{
+        object-fit: cover;
+    }
+    .login-body{
+        width: 100%;
+        left: 0%;
+    }
+    .email{
+        width: 100%;
+        /* background-color: yellow; */
+    }
+    .email input{
+        font-size: 30px;
+    }
+    .loginbutt{
+        width: 100%;
+    }
+}
